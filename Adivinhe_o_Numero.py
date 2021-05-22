@@ -2,14 +2,6 @@ import random
 import re
 
 
-def is_float(val):
-    if isinstance(val, float):
-        return True
-    if not re.search(r'^-?[0-9]+\.[0-9]+$', val):
-        return False
-    return True
-
-
 def is_int(val):
     if isinstance(val, int):
         return True
@@ -17,9 +9,6 @@ def is_int(val):
         return True
     return False
 
-
-def is_number(val):
-    return is_int(val) or is_float(val)
 
 # Programa:
 print('\nADIVINHE O NÚMERO ALEATÓRIO!',
@@ -47,7 +36,7 @@ while True:
             continue
         
     if resp_user != num_rand:
-        cont = cont - 1
+        cont -= 1
         if resp_user > num_rand:
             print("O seu numero é MAIOR, tente de novo.")
             print(f"Voce  tem {cont} tentativas\n")
