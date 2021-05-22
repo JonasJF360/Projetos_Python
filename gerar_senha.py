@@ -3,7 +3,7 @@ import random
 letras = "abcdefghijklmnopqrstuvwxyzáàâãéêíìóõôúç"
 
 print("Programa para gerar senhas a partir de frases",
-      "\nNão use uma frade muito grande!\n")
+      "\nNão use uma frase muito grande!\n")
 
 pre_senha = input("Digite a frase que será a senha: ").lower()
 print(f'Essa palavra tem {len(pre_senha)} caracteres')
