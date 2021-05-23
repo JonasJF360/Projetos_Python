@@ -1,5 +1,15 @@
 import random
 
+
+"""
+Esse projeto ainda está incompleto, mas quando timer pronto
+irá pegar uma frase qualquer e substituir cada letra da variável
+'letras' abaixo por outra que será gerada alearóriamente de uma
+vatiável com 4 digotos (letras, números e simbolos)
+
+Futuramente pretendo criar algo para "desencriprar" essa minha
+"criptografia" gerada a partir da frase.
+"""
 letras = "abcdefghijklmnopqrstuvwxyzáàâãéêíìóõôúç"
 
 print("Programa para gerar senhas a partir de frases",
