@@ -2,10 +2,11 @@ import random
 
 
 """
-Esse projeto ainda está incompleto, mas quando timer pronto
-irá pegar uma frase qualquer e substituir cada letra da variável
-'letras' abaixo por outra que será gerada alearóriamente de uma
-vatiável com 4 digotos (letras, números e simbolos)
+Esse projeto ainda está incompleto, mas quando tiver pronto
+irá pegar uma frase qualquer e substituir cada letra que 
+contida na variável 'letras' abaixo por outra que será gerada
+alearóriamente de uma vatiável que contem 4 caractéres
+(letras, números e simbolos).
 
 Futuramente pretendo criar algo para "desencriprar" essa minha
 "criptografia" gerada a partir da frase.
